@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synaptiq | สถาปัตยกรรมแห่งการประมวลผล</title>
+    <meta name="description" content="สุดยอดคู่มือระดับพรีเมียมสู่รากฐานแห่งวิทยาการคอมพิวเตอร์ ฮาร์ดแวร์ การเขียนโค้ด เว็บโฮสติ้ง และการนำเว็บไซต์ขึ้นระบบ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&family=Prompt:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Override base font to Thai font */
+        html {
+            font-family: 'Prompt', 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">SYNAPTIQ<span>.</span></a>
+            <div class="nav-links">
+                <a href="index.html">หน้าแรก</a>
+                <a href="history.html">ประวัติศาสตร์</a>
+                <a href="hardware.html">ฮาร์ดแวร์</a>
+                <a href="coding.html">การเขียนโค้ด</a>
+                <a href="setup.html">การตั้งค่าระบบ</a>
+                <a href="hosting.html">โฮสติ้ง</a>
+                <a href="seo.html">การปรับแต่ง SEO</a>
+            </div>
+        </div>
+    </nav>
+<!-- Section: Environment Setup -->
+    <section id="setup" class="section setup-section darker-bg highlight-section">
+        <div class="container reveal">
+            <h2 class="section-title">เตรียมพร้อมสู่การเป็น <span class="highlight-gold">นักพัฒนา</span></h2>
+            <p class="section-desc">ไม่ว่าคุณจะใช้ระบบปฏิบัติการใด การตั้งค่าสภาพแวดล้อมการทำงาน (Environment Setup) คือก้าวแรกที่สำคัญที่สุดในการเริ่มต้นเขียนเว็บไซต์</p>
+            
+            <div class="domain-grid">
+                <div class="domain-card">
+                    <h3>การเขียนเว็บบน Windows</h3>
+                    <p><strong>แนวทางที่แนะนำ:</strong> WSL 2 (Windows Subsystem for Linux)</p>
+                    <p>แม้ Windows จะมีระบบจัดการของตัวเอง แต่นักพัฒนาเว็บส่วนใหญ่นิยมจำลองสภาพแวดล้อม Linux</p>
+                    <ul style="margin-top: 1rem; margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <li>ติดตั้ง <strong>WSL 2</strong> และ Ubuntu ผ่าน Microsoft Store</li>
+                        <li>ใช้งาน <strong>VS Code</strong> ร่วมกับส่วนเสริม WSL</li>
+                        <li>ติดตั้งเครื่องมือเช่น Node.js หรือ Python ผ่าน Terminal ของ Ubuntu เพื่อลดปัญหาความเข้ากันได้</li>
+                    </ul>
+                </div>
+                <div class="domain-card">
+                    <h3>การเขียนเว็บบน macOS</h3>
+                    <p><strong>แนวทางที่แนะนำ:</strong> Homebrew</p>
+                    <p>macOS มีรากฐานเป็นระบบ Unix ทำให้เหมาะสมอย่างยิ่งและพร้อมสำหรับการเขียนโปรแกรมโดยธรรมชาติ</p>
+                    <ul style="margin-top: 1rem; margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <li>ติดตั้ง <strong>Homebrew</strong> (แพ็กเกจเมเนเจอร์) ผ่าน Terminal</li>
+                        <li>ใช้คำสั่ง <code>brew install node</code> หรืออื่นๆ เพื่อลงเครื่องมือพื้นฐานได้ง่ายดาย</li>
+                        <li>ดาวน์โหลด <strong>VS Code</strong> และสามารถใช้งานร่วมกับ Terminal ที่ติดมากับเครื่องได้ทันที</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">SYNAPTIQ<span>.</span></div>
+                <p>สร้างสรรค์สถาปัตยกรรมแห่งอนาคต ทีละไบต์</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Synaptiq Educational. สงวนลิขสิทธิ์.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
