@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus | สถาปัตยกรรมแห่งการประมวลผล</title>
+    <meta name="description" content="สุดยอดคู่มือระดับพรีเมียมสู่รากฐานแห่งวิทยาการคอมพิวเตอร์ ฮาร์ดแวร์ การเขียนโค้ด เว็บโฮสติ้ง และการนำเว็บไซต์ขึ้นระบบ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&family=Prompt:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Override base font to Thai font */
+        html {
+            font-family: 'Prompt', 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">NEXUS<span>.</span></a>
+            <div class="nav-links">
+                <a href="#history">ประวัติศาสตร์</a>
+                <a href="#hardware">ฮาร์ดแวร์</a>
+                <a href="#coding">การเขียนโค้ด</a>
+                <a href="#setup">การตั้งค่าระบบ</a>
+                <a href="#hosting">โฮสติ้ง</a>
+                <a href="#seo">การปรับแต่ง SEO</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content reveal">
+            <h1 class="hero-title">เจาะลึกสถาปัตยกรรม <br> <span class="highlight-gold">ดิจิทัล</span></h1>
+            <p class="hero-subtitle">สุดยอดคู่มือระดับพรีเมียมสู่รากฐานแห่งวิทยาการคอมพิวเตอร์ ฮาร์ดแวร์ที่ทรงพลัง และการเผยแพร่เว็บไซต์ยุคใหม่</p>
+            <a href="#history" class="cta-button">เริ่มต้นการเดินทาง</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- Section: Computer History -->
+    <section id="history" class="section history-section dark-bg">
+        <div class="container reveal">
+            <h2 class="section-title">วิวัฒนาการแห่ง<span class="highlight-silver">การประมวลผล</span></h2>
+            <p class="section-desc">จากเครื่องทอผ้าเชิงกลสู่หน่วยประมวลผลควอนตัม การไขว่คว้าหาการคำนวณได้พลิกโฉมหน้าประวัติศาสตร์มนุษยชาติ</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">1945</div>
+                    <h3 class="timeline-title">ENIAC & เมนเฟรม</h3>
+                    <p>จุดเริ่มต้นของคอมพิวเตอร์อิเล็กทรอนิกส์อเนกประสงค์ เครื่องจักรขนาดมหึมาที่ใช้หลอดสุญญากาศในการคำนวณด้วยความเร็วที่ไม่เคยมีมาก่อน</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1971</div>
+                    <h3 class="timeline-title">ไมโครโปรเซสเซอร์</h3>
+                    <p>Intel เปิดตัวชิป 4004 ซึ่งย่อพลังการประมวลผลของเครื่องเมนเฟรมลงในชิปซิลิคอนเพียงชิ้นเดียว ถือกำเนิดยุคคอมพิวเตอร์ส่วนบุคคล</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1989</div>
+                    <h3 class="timeline-title">เวิลด์ไวด์เว็บ</h3>
+                    <p>Tim Berners-Lee คิดค้นโปรโตคอลที่เชื่อมโยงเครือข่ายทั่วโลก เปลี่ยนคอมพิวเตอร์จากเครื่องคำนวณเดี่ยวๆ ให้เป็นศูนย์กลางการสื่อสารของโลก</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">ปัจจุบัน</div>
+                    <h3 class="timeline-title">AI & ก้าวกระโดดสู่ควอนตัม</h3>
+                    <p>โครงข่ายประสาทเทียมจำลองกระบวนการคิดของมนุษย์ ในขณะที่คิวบิต (Qubits) กำลังจะเข้ามาแก้ปัญหาโมเดลการคำนวณที่ซับซ้อนเกินกว่าจินตนาการ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Hardware -->
+    <section id="hardware" class="section hardware-section darker-bg">
+        <div class="container">
+            <div class="split-layout">
+                <div class="split-content reveal">
+                    <h2 class="section-title">ไขความลับ <span class="highlight-gold">ฮาร์ดแวร์</span></h2>
+                    <p class="section-desc">ทำความเข้าใจรากฐานทางกายภาพ ซอฟต์แวร์ที่สง่างามทุกชิ้นล้วนต้องการซิลิคอนที่ถูกวิศวกรรมมาอย่างแข็งแกร่ง</p>
+                    <ul class="feature-list">
+                        <li>
+                            <strong>CPU (หน่วยประมวลผลกลาง)</strong>
+                            <p>สมองของระบบ ทำหน้าที่ประมวลผลคำสั่งนับพันล้านรอบต่อวินาที</p>
+                        </li>
+                        <li>
+                            <strong>GPU (หน่วยประมวลผลกราฟิก)</strong>
+                            <p>ขุมพลังการประมวลผลแบบขนาน จำเป็นอย่างยิ่งสำหรับการเรนเดอร์ข้อมูลภาพและการฝึกฝนปัญญาประดิษฐ์</p>
+                        </li>
+                        <li>
+                            <strong>RAM (หน่วยความจำหลัก)</strong>
+                            <p>หน่วยความจำความเร็วสูงแบบชั่วคราว ทำหน้าที่เป็นพื้นที่ทำงานสำหรับกระบวนการที่กำลังทำงานอยู่</p>
+                        </li>
+                        <li>
+                            <strong>Motherboard (เมนบอร์ด)</strong>
+                            <p>ระบบประสาทส่วนกลาง นำส่งพลังงานและข้อมูลระหว่างส่วนประกอบหลักและอุปกรณ์ต่อพ่วงทั้งหมดผ่านเส้นทางไมโครสโคปิกที่ซับซ้อน</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="split-image reveal">
+                    <img src="assets/motherboard.png" alt="ภาพซูมความละเอียดสูงของเมนบอร์ดระดับพรีเมียม">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Coding Basics -->
+    <section id="coding" class="section coding-section dark-bg">
+        <div class="container">
+            <div class="split-layout reverse">
+                <div class="split-content reveal">
+                    <h2 class="section-title">ไวยากรณ์แห่ง <span class="highlight-silver">ตรรกะ</span></h2>
+                    <p class="section-desc">การเขียนโปรแกรมคือศิลปะในการแปลงเจตนาของมนุษย์ให้เป็นพฤติกรรมของเครื่องจักร มันอาศัยตรรกะที่ชัดเจน ไวยากรณ์ที่สง่างาม และอัลกอริทึมที่มีโครงสร้าง</p>
+                    <div class="code-concept">
+                        <h3>ตัวแปรและโครงสร้างข้อมูล (Variables & Data Structures)</h3>
+                        <p>การจัดเก็บข้อมูลในหน่วยความจำอย่างเป็นระบบ ตัวแปรคือภาชนะเก็บข้อมูลที่มีชื่อเรียก ในขณะที่โครงสร้างเช่นอาร์เรย์ (Array) ใช้เก็บข้อมูลหลายตัวที่เรียงลำดับกัน</p>
+                    </div>
+                    <div class="code-concept">
+                        <h3>การควบคุมทิศทาง (Control Flow)</h3>
+                        <p>การกำหนดเส้นทางการทำงานโดยใช้คำสั่งเงื่อนไข (เช่น If/Else) และการวนซ้ำ (เช่น For/While) เพื่อจัดการกับโครงสร้างการตัดสินใจที่ซับซ้อน</p>
+                    </div>
+                </div>
+                <div class="split-image code-window reveal">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="filename">logic.py</span>
+                    </div>
+                    <img src="assets/code_editor.png" alt="หน้าต่างโปรแกรมเขียนโค้ดสมัยใหม่">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Environment Setup -->
+    <section id="setup" class="section setup-section darker-bg highlight-section">
+        <div class="container reveal">
+            <h2 class="section-title">เตรียมพร้อมสู่การเป็น <span class="highlight-gold">นักพัฒนา</span></h2>
+            <p class="section-desc">ไม่ว่าคุณจะใช้ระบบปฏิบัติการใด การตั้งค่าสภาพแวดล้อมการทำงาน (Environment Setup) คือก้าวแรกที่สำคัญที่สุดในการเริ่มต้นเขียนเว็บไซต์</p>
+            
+            <div class="domain-grid">
+                <div class="domain-card">
+                    <h3>การเขียนเว็บบน Windows</h3>
+                    <p><strong>แนวทางที่แนะนำ:</strong> WSL 2 (Windows Subsystem for Linux)</p>
+                    <p>แม้ Windows จะมีระบบจัดการของตัวเอง แต่นักพัฒนาเว็บส่วนใหญ่นิยมจำลองสภาพแวดล้อม Linux</p>
+                    <ul style="margin-top: 1rem; margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <li>ติดตั้ง <strong>WSL 2</strong> และ Ubuntu ผ่าน Microsoft Store</li>
+                        <li>ใช้งาน <strong>VS Code</strong> ร่วมกับส่วนเสริม WSL</li>
+                        <li>ติดตั้งเครื่องมือเช่น Node.js หรือ Python ผ่าน Terminal ของ Ubuntu เพื่อลดปัญหาความเข้ากันได้</li>
+                    </ul>
+                </div>
+                <div class="domain-card">
+                    <h3>การเขียนเว็บบน macOS</h3>
+                    <p><strong>แนวทางที่แนะนำ:</strong> Homebrew</p>
+                    <p>macOS มีรากฐานเป็นระบบ Unix ทำให้เหมาะสมอย่างยิ่งและพร้อมสำหรับการเขียนโปรแกรมโดยธรรมชาติ</p>
+                    <ul style="margin-top: 1rem; margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <li>ติดตั้ง <strong>Homebrew</strong> (แพ็กเกจเมเนเจอร์) ผ่าน Terminal</li>
+                        <li>ใช้คำสั่ง <code>brew install node</code> หรืออื่นๆ เพื่อลงเครื่องมือพื้นฐานได้ง่ายดาย</li>
+                        <li>ดาวน์โหลด <strong>VS Code</strong> และสามารถใช้งานร่วมกับ Terminal ที่ติดมากับเครื่องได้ทันที</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Website Hosting -->
+    <section id="hosting" class="section hosting-section dark-bg">
+        <div class="container">
+            <div class="center-header reveal">
+                <h2 class="section-title">โครงสร้างพื้นฐาน <span class="highlight-gold">ระดับโลก</span></h2>
+                <p class="section-desc">โฮสติ้งคือสถานที่ที่โค้ดของคุณเผยแพร่สู่โลกภายนอก มันต้องการเซิร์ฟเวอร์ที่ปลอดภัย ประสิทธิภาพสูง และทำงานอย่างต่อเนื่องในศูนย์ข้อมูลที่ล้ำสมัย</p>
+            </div>
+            
+            <div class="image-banner reveal">
+                <img src="assets/server_rack.png" alt="ตู้เซิร์ฟเวอร์สุดหรูในดาต้าเซ็นเตอร์">
+            </div>
+
+            <div class="cards-grid">
+                <div class="card reveal">
+                    <h3>Shared Hosting</h3>
+                    <p>เว็บไซต์หลายแห่งอาศัยอยู่บนเซิร์ฟเวอร์เดียวกันและแบ่งปันทรัพยากร คุ้มค่าสำหรับพอร์ตโฟลิโอพื้นฐาน แต่จำกัดพลังและความยืดหยุ่น</p>
+                </div>
+                <div class="card reveal">
+                    <h3>VPS (Virtual Private Server)</h3>
+                    <p>สภาพแวดล้อมเสมือนจริงที่ถูกแยกส่วนบนเซิร์ฟเวอร์จริง มอบทรัพยากรที่การันตี สิทธิ์ Root Access และประสิทธิภาพที่แข็งแกร่งสำหรับแอปพลิเคชันที่กำลังเติบโต</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Dedicated & Cloud</h3>
+                    <p>สิทธิ์การเข้าถึงฮาร์ดแวร์จริงหรือเครือข่ายเซิร์ฟเวอร์แบบกระจายศูนย์โดยเฉพาะ ถูกออกแบบมาเพื่อรองรับผู้ใช้ระดับองค์กร ความปลอดภัยสูงสุด และความเสถียรไร้ที่ติ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Search Engine Deployment -->
+    <section id="seo" class="section seo-section darker-bg">
+        <div class="container reveal">
+            <h2 class="section-title">การมองเห็นผ่าน <span class="highlight-silver">อัลกอริทึม</span></h2>
+            <p class="section-desc">การอัปโหลดเว็บไซต์เป็นเพียงก้าวแรก การนำไปใช้งานที่แท้จริงเกี่ยวข้องกับการปรับแต่งโครงสร้างเพื่อให้บอทค้นหา (Search Engine) สามารถรวบรวมข้อมูล จัดทำดัชนี และจัดอันดับเนื้อหาของคุณได้อย่างมีประสิทธิภาพ</p>
+            
+            <div class="seo-steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h4>โครงสร้างเชิงความหมาย (Semantic Structure)</h4>
+                        <p>ใช้แท็ก HTML5 ที่สื่อความหมายอย่างถูกต้อง (&lt;header&gt;, &lt;article&gt;, &lt;nav&gt;) บอทค้นหาพึ่งพามาร์กอัปที่สะอาดและเป็นระเบียบเพื่อทำความเข้าใจบริบทของเนื้อหา</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h4>Sitemaps & Robots.txt</h4>
+                        <p>สร้างแผนผังเว็บไซต์ (XML Sitemap) เพื่อบอกโครงสร้างของคุณให้บอททราบ และใช้ไฟล์ robots.txt เพื่อควบคุมอย่างเคร่งครัดว่าบอทใดได้รับอนุญาตให้เข้าถึงส่วนไหนบ้าง</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h4>ประสิทธิภาพ (Core Web Vitals)</h4>
+                        <p>เครื่องมือค้นหาจะลดอันดับเว็บไซต์ที่ช้าอย่างหนัก ควรปรับแต่งการโหลดรูปภาพ ลดโค้ดที่ขัดขวางการแสดงผล และใช้ประโยชน์จากระบบ Edge Caching</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">NEXUS<span>.</span></div>
+                <p>สร้างสรรค์สถาปัตยกรรมแห่งอนาคต ทีละไบต์</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexus Educational. สงวนลิขสิทธิ์.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
